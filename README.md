@@ -82,6 +82,7 @@ Build out a project with one model and wire up that model using Django Views.
 # password: admin
 12. Test that the TUV and migrations worked in the development server
 13. Add /admin to the end of the local host url to log in with the admin credentials
+14. Add /1 to the end of the local host to see the first item
 
 ### Tests
 
