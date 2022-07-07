@@ -66,7 +66,7 @@ Build out a project with one model and wire up that model using Django Views.
 
 ### Setup
 
-1. Create a virtual environment --> python3 –m venv .venv
+1. Create a virtual environment --> python –m venv .venv
 2. Activate the virtual environment --> source .venv/bin/activate (for Linux and MacOS); .\.venv\Scripts\activate (for Windows)
 3. Install Django --> pip install django
 4. Create and start a Django project --> django-admin startproject djangho_snack_tracker_project .
@@ -82,6 +82,7 @@ Build out a project with one model and wire up that model using Django Views.
 # password: admin
 12. Test that the TUV and migrations worked in the development server
 13. Add /admin to the end of the local host url to log in with the admin credentials
+14. Add /1 to the end of the local host to see the first item
 
 ### Tests
 
